@@ -1,0 +1,1 @@
+/home/vara/magnetic_project/onelab-Linux64/gnuplot.sh

@@ -1,0 +1,143 @@
+.results {
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: small;
+  cursor: default;
+  background-color: #ffdcee;
+}
+
+.values {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: large;
+  cursor: default;
+  background-color: #ffdcee;
+}
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: small;
+  cursor: default;
+  background-color: #20c090;
+}
+
+img {
+  border: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
+h1 {
+  font-size: medium;
+  font-weight: bold;
+  color: #05a535;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+p {
+  margin: 0px 0px 0px 0px;
+  border: 3px solid red;
+  vertical-align: top;
+}
+
+.top {
+  font-size: x-small;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.pagemenu {
+  font-size: small;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-bottom: 0px;
+  margin-right: 1px;
+}
+
+.authors {
+  font-size: smaller;
+  font-variant: small-caps;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.title {
+  font-size: smaller;
+  font-style: italic;
+  font-weight: bold;
+  color: #000000;
+}
+
+.biblio {
+  font-size: smaller;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.footer {
+  font-size: x-small;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  vertical-align: top;
+}
+
+li {
+  marker-offset: 15px;
+/*  border: 1px dotted gray; */
+}
+
+table {
+  margin: 0px;
+  padding: 2px;
+  spacing: 0px;
+  border-left: 0px solid #ddf;
+  border-right: 0px solid #669;
+  border-top: 0px solid #669;
+  border-bottom: 0px solid #669;
+  vertical-align: top;
+  background-color: #ffdcee;
+}
+
+a:link {
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: none;
+}

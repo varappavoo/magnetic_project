@@ -1,0 +1,6 @@
+# to compute the rolling avg on the 5 column (check rolling..awk)
+awk -vn=20  -f rolling_avg.awk magnetometer_data_1524224981_gnu.csv >> magnetometer_data_1524224981_gnu_m_avg.csv
+
+# process log file in csv format from mobile phone...
+awk -F "\"*,\"*" '{printf("%.3f %.3f\n"),$1/1000,$6}' log_20180514_1451.txt > log_20180514_1451.txt.gnu
+

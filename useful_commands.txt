@@ -1,0 +1,15 @@
+unbuffer ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|awk -F "\"*,\"*" '{print $1"\t"$2"\t"$3"\t"sqrt($1*$1+$2*$2+$3*$3)}'
+
+# plot from awk output
+unbuffer ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|awk -F "\"*,\"*" '{epoch = mktime(d[1] " " d[2] " " d[3] " " t[1] " " t[2] " " t[3]); print $1"\t"$2"\t"$3"\t"sqrt($1*$1+$2*$2+$3*$3); fflush()}'|  feedgnuplot --lines --stream --xlen 360 --ylabel 'utesla' --xlabel count
+
+# format sensor data and plot
+ ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|awk  -F "\"*,\"*"  {'print $1/100"\t"$2/100"\t"$3/100"\t"sqrt($1*$1+$2*$2+$3*$3)/100;fflush();'}|feedgnuplot --lines --stream --xlen 360 --ylabel 'utesla' --xlabel count
+
+
+# include rolling avg 
+~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|awk  -F "\"*,\"*"  -v avg=1 N=20{'avg-=avg/N;m=sqrt($1*$1+$2*$2+$3*$3)/100;avg+=m/N;print m,avg;fflush();'}|feedgnuplot --lines --stream --xlen 360 --ylabel 'utesla' --xlabel count
+
+# when sensortag prints magnitude only
+~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|awk  -F "\"*,\"*"  -v avg=1 N=20{'avg-=avg/N;avg+=$1/N;print $1,avg/100;fflush();'}|feedgnuplot --lines --stream 0.1 --xlen 3600 --ylabel 'utesla' --xlabel count
+
