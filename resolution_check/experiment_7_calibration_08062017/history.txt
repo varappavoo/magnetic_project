@@ -1,0 +1,1000 @@
+ 1095  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 40000
+ 1096  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 40000
+ 1097  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 40000
+ 1098  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 40000
+ 1099  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1100  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 00000
+ 1101  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 60000
+ 1102  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1103  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 40000
+ 1104  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 45000
+ 1105  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 60000
+ 1106  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1107  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1108  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 45000
+ 1109  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 15000 -tend 45000
+ 1110  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 12000 -tend 42000
+ 1111  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 12000 -tend 42000
+ 1112  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s1_26.2cm_300cm.dat -tstart 12000 -tend 42000
+ 1113  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s1_26.2cm_300cm.dat -tstart 15000 -tend 45000
+ 1114  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s1_26.2cm_300cm.dat -tstart 10000 -tend 40000
+ 1115  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s1_26.2cm_300cm.dat -tstart 10000 -tend 42000
+ 1116  ./plot_align_trim.py -f1 s0_26.2cm_300cm.dat -f2 s1_26.2cm_300cm.dat -tstart 10000 -tend 41000
+ 1117  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 41000
+ 1118  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1119  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 100000
+ 1120  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 90000
+ 1121  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 85000
+ 1122  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 80000
+ 1123  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 50000
+ 1124  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 50000
+ 1125  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 45000
+ 1126  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 40000
+ 1127  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 40000
+ 1128  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 45000
+ 1129  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 39000
+ 1130  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 35000
+ 1131  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 70000
+ 1132  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 39000
+ 1133  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 40000
+ 1134  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat 
+ 1135  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 40000
+ 1136  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 45000
+ 1137  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_3.5cm_200cm.dat 
+ 1138  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 45000
+ 1139  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 40000
+ 1140  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 50000
+ 1141  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 20000 -tend 60000
+ 1142  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 30000 -tend 60000
+ 1143  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 60000
+ 1144  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 70000
+ 1145  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 65000
+ 1146  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat 
+ 1147  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 57000
+ 1148  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 67000
+ 1149  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 37000
+ 1150  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 37318
+ 1151  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 40
+ 1152  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 37318
+ 1153  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 20000 -tend 47318
+ 1154  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 30000 -tend 57318
+ 1155  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 40000 -tend 67318
+ 1156  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat 
+ 1157  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 10000 -tend 38559
+ 1158  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 20000 -tend 48559
+ 1159  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 30000 -tend 58559
+ 1160  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 40000 -tend 68559
+ 1161  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 50000 -tend 78559
+ 1162  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 60000 -tend 88559
+ 1163  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat 
+ 1164  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 10000 -tend 39920
+ 1165  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 49920
+ 1166  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 50000
+ 1167  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 54000
+ 1168  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 53000
+ 1169  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 53069
+ 1170  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat 
+ 1171  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 39919
+ 1172  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 41000
+ 1173  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat
+ 1174  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 41416
+ 1175  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 20000 -tend 51416
+ 1176  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 30000 -tend 61416
+ 1177  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 40000 -tend 71416
+ 1178  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 50000 -tend 81416
+ 1179  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat 
+ 1180  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 10000 -tend 43069
+ 1181  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 10000 -tend 46060
+ 1182  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 10000 -tend 46960
+ 1183  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 20000 -tend 56960
+ 1184  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 40000 -tend 68559
+ 1185  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 50000 -tend 78559
+ 1186  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_17cm_200cm.dat 
+ 1187  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat 
+ 1188  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 10000 -tend 39920
+ 1189  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 20000 -tend 49920
+ 1190  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 50000 -tend 59920
+ 1191  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat 
+ 1192  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 37318
+ 1193  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 20000 -tend 47318
+ 1194  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 57318
+ 1195  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 30000 -tend 67318
+ 1196  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 30000 -tend 57318
+ 1197  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 30000 -tend 58560
+ 1198  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat 
+ 1199  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 10000 -tend 43069
+ 1200  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 20000 -tend 53069
+ 1201  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 30000 -tend 63069
+ 1202  ./plot_align_trim.py -f1 s1_10.5cm_300cm.dat -f2 s2_10.5cm_300cm.dat 
+ 1203  ./plot_align_trim.py -f1 s1_10.5cm_300cm.dat -f2 s2_10.5cm_300cm.dat -tstart 10000 -tend 44906
+ 1204  ./plot_align_trim.py -f1 s1_10.5cm_300cm.dat -f2 s2_10.5cm_300cm.dat -tstart 20000 -tend 54906
+ 1205  ./plot_align_trim.py -f1 s1_10.5cm_300cm.dat -f2 s2_10.5cm_300cm.dat -tstart 30000 -tend 64906
+ 1206  exit
+ 1207  exitexit
+ 1208  exit
+ 1209  cd ..
+ 1210  cd round_1/
+ 1211  ls
+ 1212  ls -l
+ 1213  rm plot_align_trim.py 
+ 1214  ln -s ../../plot_align_trim.py .
+ 1215  ls -l
+ 1216  ./plot_align_trim.py -f1 s0_100cm.dat -f2 s1_100cm.dat 
+ 1217  cd 
+ 1218  cd Downloads/
+ 1219  ls
+ 1220  mplayer movie2.mp4 
+ 1221  rm movie2.mp4 
+ 1222  mplayer movie\ \(2\).mp4 
+ 1223  mplayer movie\ \(1\).mp4 
+ 1224  ls -l
+ 1225  ls -l *sub
+ 1226  ls -l *sub*
+ 1227  ls -l 3*
+ 1228  mplayer movie\ \(1\).mp4  -sub 302881916bd76e4d6172.srt 
+ 1229  exit
+ 1230  python3
+ 1231  exit
+ 1232  ifconfig
+ 1233  nmap localhost 
+ 1234  mplayer http://dsnwrs2xc3lfb.cloudfront.net/live/test1/index.m3u8
+ 1235  mplayer http://d2zie4cm15oava.cloudfront.net/live/test1/index.m3u8
+ 1236  exit
+ 1237  python3
+ 1238  exit
+ 1239  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1240  ls
+ 1241  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat 
+ 1242  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat 
+ 1243  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat -tstart 10000 -tend 40000
+ 1244  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat -tstart 10000 -tend 80000
+ 1245  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat
+ 1246  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat -tstart 10000 -tend 100000
+ 1247  ./plot_align_trim.py -f1 s1_61cm_350cm.dat  -f2 s2_61cm_350cm.dat -tstart 10000 -tend 300000
+ 1248  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1249  ls
+ 1250  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat 
+ 1251  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat 
+ 1252  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 40000
+ 1253  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 80000
+ 1254  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat
+ 1255  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 100000
+ 1256  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat  -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1257  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1258  ls
+ 1259  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat 
+ 1260  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat 
+ 1261  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat -tstart 10000 -tend 40000
+ 1262  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat -tstart 10000 -tend 80000
+ 1263  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat
+ 1264  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat -tstart 10000 -tend 100000
+ 1265  ./plot_align_trim.py -f1 s1_121cm_350cm.dat  -f2 s2_121cm_350cm.dat -tstart 10000 -tend 300000
+ 1266  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1267  ls
+ 1268  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat 
+ 1269  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat 
+ 1270  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 40000
+ 1271  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 80000
+ 1272  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat
+ 1273  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 100000
+ 1274  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat  -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 300000
+ 1275  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1276  ls
+ 1277  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat 
+ 1278  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat 
+ 1279  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat -tstart 10000 -tend 40000
+ 1280  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat -tstart 10000 -tend 80000
+ 1281  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat
+ 1282  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat -tstart 10000 -tend 100000
+ 1283  ./plot_align_trim.py -f1 s1_7cm_200cm.dat  -f2 s2_7cm_200cm.dat -tstart 10000 -tend 300000
+ 1284  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1285  ls
+ 1286  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat 
+ 1287  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat 
+ 1288  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 40000
+ 1289  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 80000
+ 1290  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat 
+ 1291  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat
+ 1292  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 100000
+ 1293  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat  -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 300000
+ 1294  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1295  ls
+ 1296  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat 
+ 1297  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat 
+ 1298  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 40000
+ 1299  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 80000
+ 1300  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat
+ 1301  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 100000
+ 1302  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat  -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1303  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1304  ls
+ 1305  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat 
+ 1306  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat 
+ 1307  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 40000
+ 1308  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 80000
+ 1309  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat
+ 1310  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 100000
+ 1311  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat  -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 300000
+ 1312  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1313  ls
+ 1314  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat 
+ 1315  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat 
+ 1316  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat -tstart 10000 -tend 40000
+ 1317  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat -tstart 10000 -tend 80000
+ 1318  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat
+ 1319  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat -tstart 10000 -tend 100000
+ 1320  ./plot_align_trim.py -f1 s1_17cm_200cm.dat  -f2 s2_17cm_200cm.dat -tstart 10000 -tend 300000
+ 1321  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1322  ls
+ 1323  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat 
+ 1324  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat 
+ 1325  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 40000
+ 1326  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 80000
+ 1327  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat
+ 1328  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 100000
+ 1329  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat  -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 300000
+ 1330  exit
+ 1331  exit
+ 1332  ssh cirlab@ocean.comp.nus.edu.sg 
+ 1333  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1334  exit
+ 1335  ssh vara@mobtorrent.comp.nus.edu.sg
+ 1336  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1337  exit
+ 1338  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1339  ls
+ 1340  ./plot_align_trim.py -f1 s1_61cm_350cm.dat -f2 s2_61cm_350cm.dat -tstart 140890  -tend   188014
+ 1341  top
+ 1342  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1343  ls
+ 1344  ./plot_align_trim.py -f1 s1_5.2cm_300cm.dat -f2 s2_5.2cm_300cm.dat -tstart 10000 -tend 300000
+ 1345  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1346  ls
+ 1347  ./plot_align_trim.py -f1 s1_10.5cm_300cm.dat -f2 s2_10.5cm_300cm.dat -tstart 10000 -tend 300000
+ 1348  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1349  ls
+ 1350  ./plot_align_trim.py -f1 s1_52.3cm_300cm.dat -f2 s2_52.3cm_300cm.dat -tstart 10000 -tend 300000
+ 1351  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1352  ls
+ 1353  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 300000
+ 1354  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1355  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 10000 -tend 300000
+ 1356  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1357  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 300000
+ 1358  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1359  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1360  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1361  ./plot_align_trim.py -f1 s1_61cm_350cm.dat -f2 s2_61cm_350cm.dat -tstart 10000 -tend 300000
+ 1362  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1363  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 300000
+ 1364  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1365  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 300000
+ 1366  python3
+ 1367  mplayer Downloads/movie\ \(3\).mp4.crdownload
+ 1368  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1369  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1370  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1371  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 300000
+ 1372  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1373  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 10000 -tend 300000
+ 1374  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1375  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 300000
+ 1376  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1377  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat 
+ 1378  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 100000
+ 1379  ./plot_align_trim.py -f1 s1_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1380  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1381  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat -f2 s2_12.2cm_350cm.dat 
+ 1382  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 100000
+ 1383  ./plot_align_trim.py -f1 s1_12.2cm_350cm.dat -f2 s2_12.2cm_350cm.dat -tstart 10000 -tend 300000
+ 1384  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1385  ./plot_align_trim.py -f1 s1_61cm_350cm.dat -f2 s2_61cm_350cm.dat 
+ 1386  ./plot_align_trim.py -f1 s1_61cm_350cm.dat -f2 s2_61cm_350cm.dat -tstart 10000 -tend 100000
+ 1387  ./plot_align_trim.py -f1 s1_61cm_350cm.dat -f2 s2_61cm_350cm.dat -tstart 10000 -tend 300000
+ 1388  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1389  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat -f2 s2_6.1cm_350cm.dat 
+ 1390  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 100000
+ 1391  ./plot_align_trim.py -f1 s1_6.1cm_350cm.dat -f2 s2_6.1cm_350cm.dat -tstart 10000 -tend 300000
+ 1392  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1393  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat 
+ 1394  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 10000 -tend 100000
+ 1395  ./plot_align_trim.py -f1 s1_7cm_200cm.dat -f2 s2_7cm_200cm.dat -tstart 10000 -tend 300000
+ 1396  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1397  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat 
+ 1398  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 100000
+ 1399  ./plot_align_trim.py -f1 s1_121cm_350cm.dat -f2 s2_121cm_350cm.dat -tstart 10000 -tend 300000
+ 1400  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1401  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat 
+ 1402  ./plot_align_trim.py -f1 s1_26.2cm_300cm.dat -f2 s2_26.2cm_300cm.dat -tstart 10000 -tend 100000
+ 1403  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 100000
+ 1404  ./plot_align_trim.py -f1 s1_30.5cm_350cm.dat -f2 s2_30.5cm_350cm.dat -tstart 10000 -tend 300000
+ 1405  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1406  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat 
+ 1407  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 100000
+ 1408  ./plot_align_trim.py -f1 s1_69.5cm_200cm.dat -f2 s2_69.5cm_200cm.dat -tstart 10000 -tend 300000
+ 1409  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1410  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat 
+ 1411  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 10000 -tend 100000
+ 1412  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat -tstart 10000 -tend 300000
+ 1413  cd magnetic_project/resolution_check/experiment_3_20180528/
+ 1414  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat 
+ 1415  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 100000
+ 1416  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat -tstart 10000 -tend 300000
+ 1417  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1418  cd Downloads/
+ 1419  ls *mp4*
+ 1420  ls *.srt*
+ 1421  ls *.srt* -l
+ 1422  mplayer movie\ \(4\).mp4.crdownload -sub e180585b31767c975156.srt 
+ 1423  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1424  cd Downloads/
+ 1425  ls *mp4*
+ 1426  mplayer movie(1).mp4.part
+ 1427  mplayer movie\(1\).mp4.part
+ 1428  sudo nano /boot/grub/grub.cfg 
+ 1429  sudo subl /boot/grub/grub.cfg 
+ 1430  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+ 1431  sudo apt-get update
+ 1432  sudo apt-get install grub-customizer 
+ 1433  sudo grub-customizer 
+ 1434  sudo reboot 
+ 1435  firefox
+ 1436  cd Downloads/
+ 1437  ls *mp4*
+ 1438  ls *mp4* -l
+ 1439  mplayer 'movie(2).mp4.part' -sub 45f705cc8f3bfb25b846.srt 
+ 1440  cd 
+ 1441  cd Downloads/
+ 1442  ls 
+ 1443  ls *mp4*
+ 1444  mplayer movie(3).mp4.part -sub 83aa0ebb9510e4a70941.srt 
+ 1445  mplayer 'movie(3).mp4.part' -sub 83aa0ebb9510e4a70941.srt 
+ 1446  cd Downloads/
+ 1447  ls
+ 1448  ls *mp4*
+ 1449  mplayer 'movie(4).mp4.part'
+ 1450  ls
+ 1451  cd magnetic_project/
+ 1452  ls
+ 1453  cd resolution_check/
+ 1454  ls
+ 1455  mkdir calibration_test
+ 1456  cd calibration_test/
+ 1457  cp ../experiment_3_20180528/run.sh .
+ 1458  cp ../experiment_3_20180528/plot_align_trim.py .
+ 1459  cp ../experiment_3_20180528/peakdetect.py .
+ 1460  ls
+ 1461  mkdir temp
+ 1462  cd temp/
+ 1463  ./run.sh /dev/ttyACM0
+ 1464  cd ..
+ 1465  ls
+ 1466  cat run.sh 
+ 1467  ./run.sh /dev/ttyACM0 test_s0_7cm_100cm_uncal.dat
+ 1468  ls
+ 1469  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1470  ls plot_align_trim.py 
+ 1471  rm plot_align_trim.py 
+ 1472  ln -s ../plot_align_trim.py .
+ 1473  subl plot_align_trim.py 
+ 1474  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1475  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat -tstart 10000 -tend 50000
+ 1476  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1477  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_cal.dat 
+ 1478  ./run.sh /dev/ttyACM0 test_s0_7cm_100cm_cal.dat
+ 1479  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat 
+ 1480  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat
+ 1481  ./run.sh /dev/ttyACM0 test_s0_7cm_100cm_cal_2.dat
+ 1482  ./run.sh /dev/ttyACM0 test_s0_7cm_135cm_uncal.dat
+ 1483  cd temp/
+ 1484  ls
+ 1485  cp ../../../run.sh .
+ 1486  ./run.sh /dev/ttyACM0
+ 1487  cd ..
+ 1488  ls
+ 1489  cat run.sh 
+ 1490  ./run.sh /dev/ttyACM2 test_s1_7cm_100cm_uncal.dat
+ 1491  ls
+ 1492  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1493  ls plot_align_trim.py 
+ 1494  rm plot_align_trim.py 
+ 1495  ln -s ../plot_align_trim.py .
+ 1496  subl plot_align_trim.py 
+ 1497  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1498  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat -tstart 10000 -tend 50000
+ 1499  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat 
+ 1500  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_cal.dat 
+ 1501  ./run.sh /dev/ttyACM2 test_s1_7cm_100cm_cal.dat
+ 1502  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat 
+ 1503  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat
+ 1504  ./run.sh /dev/ttyACM2 test_s1_7cm_100cm_uncal_2.dat
+ 1505  ./run.sh /dev/ttyACM2 test_s1_7cm_135cm_uncal.dat
+ 1506  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat
+ 1507  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat -tstart 10000 -tend 100000
+ 1508  ./plot_align_trim.py -f1 test_s1_7cm_100cm_cal.dat -f2 test_s0_7cm_100cm_cal.dat -tstart 10000 -tend 100000
+ 1509  ./plot_align_trim.py -f1 test_s0_7cm_100cm_cal.dat -f2 test_s1_7cm_100cm_cal.dat
+ 1510  ./plot_align_trim.py -f1 test_s0_7cm_100cm_uncal.dat -f2 test_s1_7cm_100cm_uncal.dat
+ 1511  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 100000
+ 1512  ./plot_align_trim.py -f1 test_s1_7cm_100cm_cal.dat -f2 test_s0_7cm_100cm_cal.dat -tstart 10000 -tend 100000
+ 1513  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 100000
+ 1514  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 200000
+ 1515  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 140000
+ 1516  ./plot_align_trim.py -f1 test_s1_7cm_100cm_cal.dat -f2 test_s0_7cm_100cm_cal.dat -tstart 10000 -tend 140000
+ 1517  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 140000
+ 1518  ./plot_align_trim.py -f1 test_s1_7cm_100cm_cal.dat -f2 test_s0_7cm_100cm_cal.dat -tstart 10000 -tend 140000
+ 1519  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 140000
+ 1520  ./plot_align_trim.py -f1 test_s1_7cm_100cm_cal.dat -f2 test_s0_7cm_100cm_cal.dat -tstart 10000 -tend 140000
+ 1521  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal.dat -f2 test_s0_7cm_100cm_uncal.dat -tstart 10000 -tend 140000
+ 1522  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal_2.dat -f2 test_s0_7cm_100cm_uncal_2.dat 
+ 1523  nautilus .
+ 1524  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal_2.dat -f2 test_s0_7cm_100cm_uncal_2.dat 
+ 1525  ./plot_align_trim.py -f1 test_s1_7cm_100cm_uncal_2.dat -f2 test_s0_7cm_100cm_uncal_2.dat -tstart 10000 -tend 100000
+ 1526  ./plot_align_trim.py -f1 test_s1_7cm_135cm_uncal.dat -f2 test_s0_7cm_135cm_uncal.dat 
+ 1527  ./plot_align_trim.py -f1 test_s1_7cm_135cm_uncal.dat -f2 test_s0_7cm_135cm_uncal.dat -tstart 10000 -tend 100000
+ 1528  cd magnetic_project/
+ 1529  ls
+ 1530  cd resolution_check/
+ 1531  cd calibration_test/
+ 1532  ls
+ 1533  cd temp/
+ 1534  ls
+ 1535  exit
+ 1536  ssh cirlab@ocean.comp.nus.edu.sg
+ 1537  cd magnetic_project/
+ 1538  ls
+ 1539  ./run.sh /dev/ttyACM0
+ 1540  ls /dev/ttyACM0
+ 1541  ./run.sh /dev/ttyACM0
+ 1542  cat /dev/ttyACM0
+ 1543  cat /dev/ttyACM2
+ 1544  cat /dev/ttyACM0
+ 1545  ./run.sh /dev/ttyACM0
+ 1546  ssh cirlab@ocean.comp.nus.edu.sg
+ 1547  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1548  ssh cirlab@ocean.comp.nus.edu.sg
+ 1549  ssh vara@mobtorrent.ddns.comp.nus.edu.sg
+ 1550  nano test.html
+ 1551  firefox test.html 
+ 1552  exit
+ 1553  ssh root@indriya.comp.nus.edu.sg
+ 1554  exit
+ 1555  exit
+ 1556  exit
+ 1557  telnet mobtorrent.ddns.comp.nus.edu.sg 25
+ 1558  exit
+ 1559  python3
+ 1560  exit
+ 1561  ls -l
+ 1562  cd magnetic_project/resolution_check/calibration_test/
+ 1563  ls -l
+ 1564  ./plot_align_trim.py -f1 test_s1_7cm_135cm_uncal.dat -f2 test_s0_7cm_135cm_uncal.dat -tstart 10000 -tend 100000
+ 1565  ls -l
+ 1566  subl plot_align_trim.py 
+ 1567  cd ,,
+ 1568  cd ..
+ 1569  cd experiment_3_20180528/
+ 1570  ls 
+ 1571  ./plot_align_trim.py -f1 s0_3.5cm_200cm.dat -f2 s0_3.5cm_200cm.dat 
+ 1572  ./plot_align_trim.py -f1 s0_3.5cm_200cm.dat -f2 s1_3.5cm_200cm.dat
+ 1573  ./plot_align_trim.py -f1 s0_3.5cm_200cm.dat -f2 s2_3.5cm_200cm.dat
+ 1574  ./plot_align_trim.py -f1 s0_7cm_200cm.dat -f2 s2_7cm_200cm.dat
+ 1575  ls -l
+ 1576  ./plot_align_trim.py -f1 s0_7cm_200cm.dat -f2 s2_7cm_200cm.dat
+ 1577  subl plot_align_trim.py 
+ 1578  ./plot_align_trim.py -f1 s0_7cm_200cm.dat -f2 s2_7cm_200cm.dat
+ 1579  ./plot_align_trim.py -f1 s0_7cm_200cm.dat -f2 s1_7cm_200cm.dat
+ 1580  ./plot_align_trim.py -f1 s0_17cm_200cm.dat -f2 s1_17cm_200cm.dat
+ 1581  ./plot_align_trim.py -f1 s0_17cm_200cm.dat -f2 s2_17cm_200cm.dat
+ 1582  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat
+ 1583  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat
+ 1584  ./plot_align_trim.py -f1 s0_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat
+ 1585  ./plot_align_trim.py -f1 s2_34.9cm_200cm.dat -f2 s0_34.9cm_200cm.dat
+ 1586  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s0_34.9cm_200cm.dat
+ 1587  ls
+ 1588  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s0_34.9cm_200cm.dat
+ 1589  ./plot_align_trim.py -f1 s2_34.9cm_200cm.dat -f2 s0_34.9cm_200cm.dat
+ 1590  ./plot_align_trim.py -f1 s1_34.9cm_200cm.dat -f2 s2_34.9cm_200cm.dat
+ 1591  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s2_17cm_200cm.dat
+ 1592  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s0_17cm_200cm.dat
+ 1593  ./plot_align_trim.py -f1 s2_17cm_200cm.dat -f2 s0_17cm_200cm.dat
+ 1594  ./plot_align_trim.py -f1 s2_17cm_200cm.dat -f2 s0_17cm_200cm.dat -tstart 10000 -tend 100000
+ 1595  ./plot_align_trim.py -f1 s1_17cm_200cm.dat -f2 s0_17cm_200cm.dat -tstart 10000 -tend 100000
+ 1596  ping 8.8.8.8
+ 1597  exit
+ 1598  cd magnetic_project/resolution_check/
+ 1599  ls
+ 1600  ./run.sh /dev/ttyACM0
+ 1601  ../../run.sh /dev/ttyACM2
+ 1602  cat /dev/ttyACM2
+ 1603  ../../run.sh /dev/ttyACM2
+ 1604  cp ../experiment_3_20180528/run.sh .
+ 1605  ls
+ 1606  cat run.sh 
+ 1607  ./run.sh /dev/ttyACM2 s0_1.dat
+ 1608  ln -s ../plot_align_trim.py .
+ 1609  ls
+ 1610  ./run.sh /dev/ttyACM2 s0_1_exp2.dat
+ 1611  ./run.sh /dev/ttyACM2 s0_1_exp3.dat
+ 1612  ./run.sh /dev/ttyACM2 s0_1_exp4.dat
+ 1613  ./run.sh /dev/ttyACM2 s0_1_exp5.dat
+ 1614  ./run.sh /dev/ttyACM2 s0_1_exp6.dat
+ 1615  ls
+ 1616  ./run.sh /dev/ttyACM2 s0_1_200cm_exp1.dat
+ 1617  ./run.sh /dev/ttyACM3 s0_1_200cm_exp1.dat
+ 1618  ./run.sh /dev/ttyACM3 s0_1_200cm_exp2.dat
+ 1619  cd ..
+ 1620  ./run.sh /dev/ttyACM4
+ 1621  ./run.sh /dev/ttyACM3
+ 1622  cd resolution_check/experiment_7_calibration_08062017/
+ 1623  ls
+ 1624  #./run.sh /dev/ttyACM3 s0_1_200cm_exp3.dat
+ 1625  cd ..
+ 1626  ./run.sh /dev/ttyACM3
+ 1627  cd resolution_check/experiment_7_calibration_08062017/
+ 1628  ./run.sh /dev/ttyACM3 s0_1_200cm_exp3.dat
+ 1629  ./run.sh /dev/ttyACM3 s0_1_200cm_exp4.dat
+ 1630  ./run.sh /dev/ttyACM3 s0_1_200cm_exp5_1385pwm.dat
+ 1631  ./run.sh /dev/ttyACM3 s0_1_200cm_exp5_1300pwm.dat
+ 1632  ./run.sh /dev/ttyACM3 s0_1_200cm_exp5_1200pwm.dat
+ 1633  ./run.sh /dev/ttyACM3 s0_1_200cm_exp5_1385pwm_2.dat
+ 1634  ./run.sh /dev/ttyACM3 s0_1_200cm_exp5_1385pwm_3.dat
+ 1635  ./run.sh /dev/ttyACM3 s0_1_300cm_exp5_1385pwm_3.dat
+ 1636  ./run.sh /dev/ttyACM3 s0_1_300cm_exp5_1428pwm_3.dat
+ 1637  rm s0_1_300cm_exp5_1428pwm_3.dat
+ 1638  ./run.sh /dev/ttyACM3 s0_1_300cm_1428pwm.dat
+ 1639  ls
+ 1640  rm *1428pwm_exp3*
+ 1641  ls -l
+ 1642  ./run.sh /dev/ttyACM3 s0_1_300cm_1385pwm_2.dat
+ 1643  ./run.sh /dev/ttyACM3 s0_1_350cm_1385pwm.datt
+ 1644  ./run.sh /dev/ttyACM3 s0_1_350cm_1385pwm_exp2.dat
+ 1645  exit
+ 1646  ./run.sh /dev/ttyACM4 s1_exp3.dat
+ 1647  ./run.sh /dev/ttyACM4 s1_exp4.dat
+ 1648  ./run.sh /dev/ttyACM4 s1_exp5.dat
+ 1649  ./run.sh /dev/ttyACM4 s1_exp6.dat
+ 1650  ls
+ 1651  ./run.sh /dev/ttyACM4 s1_200cm_exp1.dat
+ 1652  ./run.sh /dev/ttyACM5 s1_200cm_exp1.dat
+ 1653  ./run.sh /dev/ttyACM5 s1_200cm_exp2.dat
+ 1654  cd ..
+ 1655  ./run.sh /dev/ttyACM6
+ 1656  ./run.sh /dev/ttyACM5
+ 1657  cd resolution_check/experiment_7_calibration_08062017/
+ 1658  ls
+ 1659  #./run.sh /dev/ttyACM5 s1_200cm_exp3.dat
+ 1660  cd ..
+ 1661  ./run.sh /dev/ttyACM5
+ 1662  cd resolution_check/experiment_7_calibration_08062017/
+ 1663  ./run.sh /dev/ttyACM5 s1_200cm_exp3.dat
+ 1664  ./run.sh /dev/ttyACM5 s1_200cm_exp4.dat
+ 1665  ./run.sh /dev/ttyACM5 s1_200cm_exp5_1385pwm.dat
+ 1666  ./run.sh /dev/ttyACM5 s1_200cm_exp5_1300pwm.dat
+ 1667  ./run.sh /dev/ttyACM5 s1_200cm_exp5_1200pwm.dat
+ 1668  ./run.sh /dev/ttyACM5 s1_200cm_exp5_1385pwm_2.dat
+ 1669  ./run.sh /dev/ttyACM5 s1_200cm_exp5_1385pwm_3.dat
+ 1670  ./run.sh /dev/ttyACM5 s1_300cm_exp5_1385pwm_3.dat
+ 1671  ./run.sh /dev/ttyACM5 s1_300cm_exp5_1428pwm_3.dat
+ 1672  rmM5 s1_300cm_exp5_1428pwm_3.dat
+ 1673  ./run.sh /dev/ttyACM5 s1_300cm_1428pwm.dat
+ 1674  ls
+ 1675  rm *1428pwm_exp3*
+ 1676  ls -l
+ 1677  ./run.sh /dev/ttyACM5 s1_300cm_1385pwm_2.dat
+ 1678  ./run.sh /dev/ttyACM5 s1_350cm_1385pwm.datt
+ 1679  ./run.sh /dev/ttyACM5 s1_350cm_1385pwm_exp2.dat
+ 1680  exit
+ 1681  cd magnetic_project/
+ 1682  ls
+ 1683  cd resolution_check/
+ 1684  ls
+ 1685  mkdir experiment_7_calibration_08062017
+ 1686  cd experiment_7_calibration_08062017/
+ 1687  ls
+ 1688  ../../run.sh /dev/ttyACM0
+ 1689  cat /dev/ttyACM0
+ 1690  ../../run.sh /dev/ttyACM0
+ 1691  cp ../experiment_3_20180528/run.sh .
+ 1692  ls
+ 1693  cat run.sh 
+ 1694  ./run.sh /dev/ttyACM0 s0_0.dat
+ 1695  ln -s ../plot_align_trim.py .
+ 1696  ls
+ 1697  ./run.sh /dev/ttyACM0 s0_0_exp2.dat
+ 1698  ./run.sh /dev/ttyACM0 s0_0_exp3.dat
+ 1699  ./run.sh /dev/ttyACM0 s0_0_exp4.dat
+ 1700  ./run.sh /dev/ttyACM0 s0_0_exp5.dat
+ 1701  ./run.sh /dev/ttyACM0 s0_0_exp6.dat
+ 1702  ls
+ 1703  ./run.sh /dev/ttyACM0 s0_0_200cm_exp1.dat
+ 1704  ./run.sh /dev/ttyACM1 s0_0_200cm_exp1.dat
+ 1705  ./run.sh /dev/ttyACM1 s0_0_200cm_exp2.dat
+ 1706  cd ..
+ 1707  ./run.sh /dev/ttyACM2
+ 1708  ./run.sh /dev/ttyACM1
+ 1709  cd resolution_check/experiment_7_calibration_08062017/
+ 1710  ls
+ 1711  #./run.sh /dev/ttyACM1 s0_0_200cm_exp3.dat
+ 1712  cd ..
+ 1713  ./run.sh /dev/ttyACM1
+ 1714  cd resolution_check/experiment_7_calibration_08062017/
+ 1715  ./run.sh /dev/ttyACM1 s0_0_200cm_exp3.dat
+ 1716  ./run.sh /dev/ttyACM1 s0_0_200cm_exp4.dat
+ 1717  ./run.sh /dev/ttyACM1 s0_0_200cm_exp5_1385pwm.dat
+ 1718  ./run.sh /dev/ttyACM1 s0_0_200cm_exp5_1300pwm.dat
+ 1719  ./run.sh /dev/ttyACM1 s0_0_200cm_exp5_1200pwm.dat
+ 1720  ./run.sh /dev/ttyACM1 s0_0_200cm_exp5_1385pwm_2.dat
+ 1721  ./run.sh /dev/ttyACM1 s0_0_200cm_exp5_1385pwm_3.dat
+ 1722  ./run.sh /dev/ttyACM1 s0_0_300cm_exp5_1385pwm_3.dat
+ 1723  ./run.sh /dev/ttyACM1 s0_0_300cm_exp5_1428pwm_3.dat
+ 1724  rm s0_0_300cm_exp5_1428pwm_3.dat
+ 1725  ./run.sh /dev/ttyACM1 s0_0_300cm_1428pwm.dat
+ 1726  ls
+ 1727  rm *1428pwm_exp3*
+ 1728  ls -l
+ 1729  ./run.sh /dev/ttyACM1 s0_0_300cm_1385pwm_2.dat
+ 1730  ./run.sh /dev/ttyACM1 s0_0_350cm_1385pwm.datt
+ 1731  ./run.sh /dev/ttyACM1 s0_0_350cm_1385pwm_exp2.dat
+ 1732  exit
+ 1733  ls
+ 1734  ./plot_align_trim.py -f1 s0_0.dat -f2 s0_1.dat 
+ 1735  ./plot_align_trim.py -f1 s0_0_exp2.dat -f2 s0_1_exp2.dat 
+ 1736  ./plot_align_trim.py -f1 s0_0_exp2.dat -f2 s0_1_exp2.dat -tstart 10000 -tend 50000
+ 1737  ./plot_align_trim.py -f1 s0_0_exp2.dat -f2 s0_1_exp2.dat -tstart 10000 -tend 100000
+ 1738  ls -l
+ 1739  ./plot_align_trim.py -f1 s0_0_exp3.dat -f2 s0_1_exp3.dat 
+ 1740  ./plot_align_trim.py -f1 s0_0_exp3.dat -f2 s1_exp.dat
+ 1741  ./plot_align_trim.py -f1 s0_0_exp3.dat -f2 s1_exp3.dat-tstart 10000 -tend 100000
+ 1742  ./plot_align_trim.py -f1 s0_0_exp3.dat -f2 s1_exp3.dat -tstart 10000 -tend 100000
+ 1743  ./plot_align_trim.py -f1 s0_1_exp3.dat -f2 s1_exp3.dat -tstart 10000 -tend 100000
+ 1744  ls
+ 1745  ls 
+ 1746  ./plot_align_trim.py -f1 s0_0_exp4.dat -f2 s0_1_exp4.dat 
+ 1747  ./plot_align_trim.py -f1 s0_0_exp4.dat -f2 s1_exp4.dat 
+ 1748  ./plot_align_trim.py -f1 s1_exp4.dat -f2 s0_exp4.dat 
+ 1749  ./plot_align_trim.py -f1 s1_exp4.dat -f2 s0_0_exp4.dat 
+ 1750  ./plot_align_trim.py -f1 s1_exp4.dat -f2 s0_1_exp4.dat 
+ 1751  ./plot_align_trim.py -f1 s0_0_exp4.dat -f2 s0_1_exp4.dat 
+ 1752  ./plot_align_trim.py -f1 s1_exp4.dat -f2 s0_0_exp4.dat  -tstart 10000 -tend 100000
+ 1753  touch exp_4_is_calibrated.txt
+ 1754  ./plot_align_trim.py -f1 s0_0_exp5.dat -f2 s0_1_exp5.dat 
+ 1755  ./plot_align_trim.py -f1 s0_0_exp5.dat -f2 s1_exp5.dat 
+ 1756  ./plot_align_trim.py -f1 s1_exp5.dat -f2 s0_0_exp5.dat 
+ 1757  ./plot_align_trim.py -f1 s2_exp5.dat -f2 s0_0_exp5.dat 
+ 1758  ./plot_align_trim.py -f1 s1_exp5.dat -f2 s0_1_exp5.dat 
+ 1759  ./plot_align_trim.py -f1 s1_exp6.dat -f2 s0_1_exp6.dat 
+ 1760  ./plot_align_trim.py -f1 s0_0_exp6.dat -f2 s0_1_exp6.dat 
+ 1761  ./plot_align_trim.py -f1 s1_exp6.dat -f2 s0_0_exp6.dat 
+ 1762  ./plot_align_trim.py -f1 s1_exp6.dat -f2 s0_1_exp6.dat 
+ 1763  ./plot_align_trim.py -f1 s0_1_exp6.dat -f2 s1_exp6.dat 
+ 1764  ./plot_align_trim.py -f1 s0_0_exp6.dat -f2 s1_exp6.dat 
+ 1765  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat 
+ 1766  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s0_1_200cm_exp1.dat 
+ 1767  ./plot_align_trim.py -f1 s1_200cm_exp1.dat -f2 s0_1_200cm_exp1.dat 
+ 1768  ./plot_align_trim.py -f1 s1_200cm_exp1.dat -f2 s0_0_200cm_exp1.dat 
+ 1769  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat 
+ 1770  ./plot_align_trim.py -f1 s0_1_200cm_exp1.dat -f2 s1_200cm_exp1.dat 
+ 1771  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s0_1_200cm_exp1.dat 
+ 1772  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat 
+ 1773  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat -tstart 10000 -tend 40000
+ 1774  ./plot_align_trim.py -f1 s0_1_200cm_exp1.dat -f2 s1_200cm_exp1.dat -tstart 10000 -tend 40000
+ 1775  ./plot_align_trim.py -f1 s0_0_200cm_exp2.dat -f2 s0_1_200cm_exp2.dat 
+ 1776  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat 
+ 1777  ./plot_align_trim.py -f1 s0_0_200cm_exp2.dat -f2 s1_200cm_exp2.dat 
+ 1778  ./plot_align_trim.py -f1 s0_0_200cm_exp3.dat -f2 s0_1_200cm_exp3.dat 
+ 1779  ./plot_align_trim.py -f1 s0_0_200cm_exp3.dat -f2 s1_200cm_exp3.dat 
+ 1780  ./plot_align_trim.py -f1 s0_1_200cm_exp3.dat -f2 s1_200cm_exp3.dat 
+ 1781  ./plot_align_trim.py -f1 s1_200cm_exp3.dat -f2 s0_1_200cm_exp3.dat 
+ 1782  ./plot_align_trim.py -f1 s1_200cm_exp3.dat -f2 s0_0_200cm_exp3.dat 
+ 1783  ./plot_align_trim.py -f1 s1_200cm_exp4.dat -f2 s0_0_200cm_exp4.dat 
+ 1784  ./plot_align_trim.py -f1 s1_200cm_exp4.dat -f2 s0_1_200cm_exp4.dat 
+ 1785  ./plot_align_trim.py -f1 s0_0_200cm_exp4.dat -f2 s0_1_200cm_exp4.dat 
+ 1786  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm.dat -f2 s0_1_200cm_exp5_1385pwm.dat 
+ 1787  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm.dat -f2 s0_1_200cm_exp5_1385pwm.dat 
+ 1788  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm.dat -f2 s0_0_200cm_exp5_1385pwm.dat 
+ 1789  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm.dat -f2 s0_1_200cm_exp5_1385pwm.dat 
+ 1790  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat 
+ 1791  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 10000 -tend 40000
+ 1792  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_0_200cm_exp5_1300pwm.dat 
+ 1793  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat 
+ 1794  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 20000 40000
+ 1795  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 20000 -tend 40000
+ 1796  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 20000 -tend 50000
+ 1797  ./plot_align_trim.py -f1 s1_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 20000 -tend 80000
+ 1798  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1300pwm.dat -f2 s0_1_200cm_exp5_1300pwm.dat -tstart 10000 -tend 40000
+ 1799  ./plot_align_trim.py -f1 s1_200cm_exp5_1200pwm.dat -f2 s0_0_200cm_exp5_1200pwm.dat 
+ 1800  ./plot_align_trim.py -f1 s1_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1801  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1802  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_2.dat -f2 s0_1_200cm_exp5_1385pwm_2.dat
+ 1803  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm_2.dat -f2 s0_1_200cm_exp5_1385pwm_2.dat
+ 1804  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm_2.dat -f2 s0_0_200cm_exp5_1385pwm_2.dat
+ 1805  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm_3.dat -f2 s0_0_200cm_exp5_1385pwm_3.dat
+ 1806  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm_3.dat -f2 s1_0_200cm_exp5_1385pwm_3.dat
+ 1807  ./plot_align_trim.py -f1 s1_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat
+ 1808  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat
+ 1809  touch exp5_1385pwm_2_is too short_exp5_1385pwm_3 is longer
+ 1810  ls
+ 1811  touch 'exp5_1385pwm_2_is too short_exp5_1385pwm_3 is longer'
+ 1812  ls
+ 1813  rm exp5_1385pwm_2_is
+ 1814  rm is
+ 1815  rm longer 
+ 1816  rm short_exp5_1385pwm_3 
+ 1817  ls
+ 1818  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm.dat -f2 s0_1_300cm_exp5_1385pwm.dat 
+ 1819  ./plot_align_trim.py -f1 s0_0_300cm_exp1_1385pwm.dat -f2 s0_1_300cm_exp1_1385pwm.dat 
+ 1820  ./plot_align_trim.py -f1 s0_0_300cm_exp1_1385pwm.dat -f2 s1_300cm_exp1_1385pwm.dat 
+ 1821  ./plot_align_trim.py -f1 s0_1_300cm_exp1_1385pwm.dat -f2 s1_300cm_exp1_1385pwm.dat 
+ 1822  ./plot_align_trim.py -f1 s0_1_300cm_1428pwm.dat -f2 s1_300cm_1428pwm.dat 
+ 1823  ./plot_align_trim.py -f1 s0_0_300cm_1428pwm.dat -f2 s1_300cm_1428pwm.dat 
+ 1824  ./plot_align_trim.py -f1 s0_0_300cm_1428pwm.dat -f2 s0_1_300cm_1428pwm.dat 
+ 1825  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat 
+ 1826  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1827  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1828  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm.datt 
+ 1829  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt 
+ 1830  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt 
+ 1831  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1832  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1833  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1834  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1835  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1836  ./plot_align_trim.py -f1 s1_350cm_1385pwm_exp2.dat -f2 s0_0_350cm_1385pwm_exp2.dat 
+ 1837  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1838  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1839  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1840  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1841  ls -l
+ 1842  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1843  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1844  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1845  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1846  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1847  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1848  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1849  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1850  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1851  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1852  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s0_0_350cm_1385pwm_exp2.dat 
+ 1853  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1854  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1855  ls *300*
+ 1856  ./plot_align_trim.py -f1 s0_0_300cm_exp1_1385pwm.dat -f2 s0_1_300cm_exp1_1385pwm.dat 
+ 1857  ./plot_align_trim.py -f1 s0_0_300cm_exp1_1385pwm.dat -f2 s1_300cm_exp1_1385pwm.dat 
+ 1858  ./plot_align_trim.py -f1 s0_1_300cm_exp1_1385pwm.dat -f2 s1_300cm_exp1_1385pwm.dat 
+ 1859  python3
+ 1860  ssh cirlab@ocean.comp.nus.edu.sg
+ 1861  history|grep serial
+ 1862  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0
+ 1863  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM7
+ 1864  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0
+ 1865  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM7
+ 1866  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0
+ 1867  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM7
+ 1868  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0
+ 1869  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM7
+ 1870  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0
+ 1871  ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM7
+ 1872  cd magnetic_project/
+ 1873  ls
+ 1874  ./run.sh /dev/ttyACM0
+ 1875  EXIT
+ 1876  exit
+ 1877  python3
+ 1878  exit
+ 1879  cd Downloads/
+ 1880  ls
+ 1881  ls *mp4
+ 1882  ls *mp4 -l
+ 1883  mplayer 'movie(3).mp4'
+ 1884  ls -l
+ 1885  c 
+ 1886  cd 
+ 1887  cd magnetic_project/
+ 1888  ls -l
+ 1889  cd resolution_check/
+ 1890  ls
+ 1891  cd experiment_7_calibration_08062017/
+ 1892  ls
+ 1893  ls -l
+ 1894  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1895  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1896  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat 
+ 1897  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1898  ./plot_align_trim.py -f1 s1_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1899  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1900  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat 
+ 1901  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat 
+ 1902  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat 
+ 1903  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1904  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 10000 -tend 60000
+ 1905  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 10000 -tend 100000
+ 1906  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 100000
+ 1907  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 10000
+ 1908  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 2000
+ 1909  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 3000
+ 1910  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 3000
+ 1911  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 5000
+ 1912  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 9000
+ 1913  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 15000
+ 1914  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat 
+ 1915  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s1_200cm_exp5_1200pwm.dat -tstart 0 -tend 11000
+ 1916  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat -tstart 0 -tend 11000
+ 1917  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat -tstart 0 -tend 11000
+ 1918  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1200pwm.dat -f2 s0_1_200cm_exp5_1200pwm.dat 
+ 1919  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1920  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1921  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1922  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 10000
+ 1923  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1924  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 15000
+ 1925  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 12000
+ 1926  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1927  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1928  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1929  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat 
+ 1930  ls *300*1385*
+ 1931  ls *300*1385* -l
+ 1932  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm.datt 
+ 1933  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt 
+ 1934  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt 
+ 1935  ls *350* -l
+ 1936  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1937  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1938  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1939  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1940  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm.datt 
+ 1941  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt 
+ 1942  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 4000
+ 1943  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 10000
+ 1944  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 4000
+ 1945  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 10000
+ 1946  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 14000
+ 1947  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt -tstart 0 -tend 15000
+ 1948  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt
+ 1949  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt
+ 1950  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s1_350cm_1385pwm.datt
+ 1951  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm.datt
+ 1952  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat 
+ 1953  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1954  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat 
+ 1955  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1956  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat 
+ 1957  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1958  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1959  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1960  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat 
+ 1961  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1962  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1963  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat
+ 1964  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat 
+ 1965  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat
+ 1966  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 15000
+ 1967  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 10000
+ 1968  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1969  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1970  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1971  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1972  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1973  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 20000
+ 1974  ls -l
+ 1975  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s0_1_200cm_exp1.dat -tstart 0 -tend 20000
+ 1976  ./plot_align_trim.py -f1 s0_0_200cm_exp1.dat -f2 s1_200cm_exp1.dat -tstart 0 -tend 20000
+ 1977  ./plot_align_trim.py -f1 s0_1_200cm_exp1.dat -f2 s1_200cm_exp1.dat -tstart 0 -tend 20000
+ 1978  ./plot_align_trim.py -f1 s0_1_200cm_exp2.dat -f2 s1_200cm_exp2.dat -tstart 0 -tend 20000
+ 1979  ./plot_align_trim.py -f1 s0_0_200cm_exp2.dat -f2 s1_200cm_exp2.dat -tstart 0 -tend 20000
+ 1980  ./plot_align_trim.py -f1 s0_0_200cm_exp3.dat -f2 s1_200cm_exp3.dat 
+ 1981  ./plot_align_trim.py -f1 s0_0_200cm_exp3.dat -f2 s1_200cm_exp3.dat -tstart 0 -tend 20000
+ 1982  ./plot_align_trim.py -f1 s0_0_200cm_exp3.dat -f2 s1_200cm_exp3.dat -tstart 0 -tend 30000
+ 1983  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat 
+ 1984  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat  -tstart 0 -tend 50000
+ 1985  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s1_200cm_exp5_1385pwm_3.dat  -tstart 0 -tend 50000
+ 1986  ./plot_align_trim.py -f1 s0_1_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat  -tstart 0 -tend 50000
+ 1987  ./plot_align_trim.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat  -tstart 0 -tend 50000
+ 1988  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 50000
+ 1989  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 50000
+ 1990  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 50000
+ 1991  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 50000
+ 1992  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 45000
+ 1993  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 40000
+ 1994  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 1995  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 1996  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 1997  exit
+ 1998  sudo grub-customizer 
+ 1999  sudo reboot 
+ 2000  cd magnetic_project/resolution_check/
+ 2001  ls
+ 2002  cd experiment_7_calibration_08062017/
+ 2003  ls
+ 2004  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2005  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2006  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2007  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2008  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2009  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2010  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2011  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2012  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2013  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2014  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2015  ls
+ 2016  ./plot_align_trim.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2017  ./plot_align_trim.py -f1 s0_1_350cm_1385pwm_exp2.dat -f2 s1_350cm_1385pwm_exp2.dat  -tstart 0 -tend 35000
+ 2018  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2019  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2020  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2021  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2022  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2023  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2024  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2025  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2026  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2027  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2028  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2029  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2030  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2031  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 30000
+ 2032  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2033  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2034  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2035  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2036  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2037  ./plot_align_trim.py -f1 s0_1_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2038  ./plot_align_trim.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s1_300cm_1385pwm_2.dat  -tstart 0 -tend 35000
+ 2039  ln -s ../plot_align_trim_files_3.py .
+ 2040  ls
+ 2041  chmod a+x ../plot_align_trim_files_3.py 
+ 2042  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat-f3 s1_300cm_1385pwm_2.dat
+ 2043  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat
+ 2044  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2045  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 10000
+ 2046  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2047  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 30000
+ 2048  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 10000
+ 2049  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 50000
+ 2050  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2051  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 50000
+ 2052  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 30000
+ 2053  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2054  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 30000
+ 2055  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2056  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 30000
+ 2057  ./plot_align_trim_files_3.py -f1 s0_0_200cm_exp5_1385pwm.dat -f2 s0_1_200cm_exp5_1385pwm -f3 s1_200cm_exp5_1385pwm -tstart 0 -tend 30000
+ 2058  ./plot_align_trim_files_3.py -f1 s0_0_200cm_exp5_1385pwm_3.dat -f2 s0_1_200cm_exp5_1385pwm_3.dat -f3 s1_200cm_exp5_1385pwm_3.dat -tstart 0 -tend 30000
+ 2059  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm_2.dat -f2 s0_1_300cm_1385pwm_2.dat -f3 s1_300cm_1385pwm_2.dat -tstart 0 -tend 30000
+ 2060  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm_exp2.dat -f2 s0_1_350cm_1385pwm_exp2.dat -f3 s1_350cm_1385pwm_exp2.dat -tstart 0 -tend 30000
+ 2061  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.datt -f2 s0_1_350cm_1385pwm.datt -f3 s1_350cm_1385pwm.datt -tstart 0 -tend 30000
+ 2062  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1428pwm.dat -f2 s0_1_300cm_1428pwm.dat -f3 s1_300cm_1428pwm.dat -tstart 0 -tend 30000
+ 2063  cp *350cm_1385pwm_exp2.dat calibrated/
+ 2064  cp *300cm_1385pwm_2.dat calibrated/
+ 2065  cp *200cm_exp5_1385pwm_3.dat calibrated/
+ 2066  ls
+ 2067  ls calibrated/
+ 2068* 
+ 2069  ./plot_align_trim_files_3.py -f1 s0_0_200cm_1385pwm.dat -f2 s0_1_200cm_1385pwm -f3 s1_200cm_1385pwm -tstart 0 -tend 30000
+ 2070  ./plot_align_trim_files_3.py -f1 s0_0_200cm_1385pwm.dat -f2 s0_1_200cm_1385pwm.dat -f3 s1_200cm_1385pwm.dat -tstart 0 -tend 30000
+ 2071  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2072  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2073  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2074  ./plot_align_trim_files_3.py -f1 s0_0_200cm_1385pwm.dat -f2 s0_1_200cm_1385pwm.dat -f3 s1_200cm_1385pwm.dat -tstart 0 -tend 30000
+ 2075  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2076  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2077  ls -l
+ 2078  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 15000
+ 2079* ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 20000~
+ 2080  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2081  p-ython3 -m pdb plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2082  python3 -m pdb plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2083  cp ../peakdetect.py .
+ 2084  python3 -m pdb plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2085  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2086  python3 -m pdb plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2087  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2088  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2089  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2090  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2091  ./plot_align_trim_files_3.py -f1 s0_0_200cm_1385pwm.dat -f2 s0_1_200cm_1385pwm.dat -f3 s1_200cm_1385pwm.dat -tstart 0 -tend 30000
+ 2092  ./plot_align_trim_files_3.py -f1 s0_0_300cm_1385pwm.dat -f2 s0_1_300cm_1385pwm.dat -f3 s1_300cm_1385pwm.dat -tstart 0 -tend 30000
+ 2093  ./plot_align_trim_files_3.py -f1 s0_0_350cm_1385pwm.dat -f2 s0_1_350cm_1385pwm.dat -f3 s1_350cm_1385pwm.dat -tstart 0 -tend 30000
+ 2094  history > history.txt
