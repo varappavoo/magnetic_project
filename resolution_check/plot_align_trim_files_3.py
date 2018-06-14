@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from scipy import signal
 from scipy.signal import find_peaks, peak_prominences, correlate, decimate, filtfilt
 from scipy.interpolate import spline
-
-from scipy import interpolate
+from sklearn.preprocessing import normalize
+from scipy import interpolate, stats, cluster
 
 from peakdetect import peakdetect
 from termcolor import colored
@@ -26,15 +26,17 @@ parser.add_argument("-f2", "--sensor0_1file", dest="s0_1_filename", help="collec
 parser.add_argument("-f3", "--sensor1file", dest="s1_filename", help="collected data from s1", metavar="FILE", required=True)
 parser.add_argument("-tstart", "--truncatestart", dest="truncate_start", help="truncate data collected at the end", required=False)
 parser.add_argument("-tend", "--truncateend", dest="truncate_end", help="truncate data collected at the end", required=False)
+parser.add_argument("-ddiff", "--degree_diff", dest="degree_diff", help="degree difference from two first known sensors", required=True)
 
-
+EXCL_NEGATIVE_TIME_DIFF_FOR_GROUND_TRUTH = 0
+CORRELATION_CIRCULAR = 0
 X_CORR_BY_WINDOW = 1
 TIMESTAMP_COL = 0
 DATA_COL = 1
 DEBUG = 2
 SHOW_PLOT = 0
-SHOW_PEAKS_PROMINENCES = 0
-SHOW_XCORR = 0
+SHOW_PEAKS_PROMINENCES = 1
+SHOW_XCORR = 1
 COMPUTE_ANGULAR_FREQUENCY_DEGREE_DRIFT = 1
 SMOOTH_WO_SHIFT = 1
 NORMALIZE = 1
@@ -43,12 +45,12 @@ CSV_OUTPUT = 0
 
 peak_width = 1000
 mean_samples = 1
-SMOOTH_CUT_OFF_FREQ = 0.1
+SMOOTH_CUT_OFF_FREQ = 1
 WAVELET = 0
 
 lower_percentile = 25
 higher_percentile = 75
-histogram_bin_size = 10
+histogram_bin_size = 5
 
 time_shift_arr = []
 
@@ -129,11 +131,27 @@ def smoothen_without_shift(sig):#, impulse_length):
 ########################################
 def normalize_regularize(sig):
 	sig -= sig.mean(); sig /= (sig.std())
-	# sig -= sig.mean(); sig /= (3*sig.std())
+	# sig = normalize([sig], norm='l2')[0] # sklearn.preprocessing
 	return sig
 
 def normalize_zee_style(sig):
 	pass
+
+
+
+def periodic_corr_np(x, y):
+	#
+	# src: https://stackoverflow.com/questions/28284257/circular-cross-correlation-python
+	# circular cross correlation python
+	#
+	#
+    """Periodic correlation, implemented using np.correlate.
+
+    x and y must be real sequences with the same length.
+    """
+    return np.correlate(x, np.hstack((y[1:], y)), mode='valid')
+
+
 
 # def normalize_max_min(sig):
 # 	sig = (sig - sig[np.argmin(sig)])/(sig[np.argmax(sig)] - sig[np.argmin(sig)])
@@ -180,6 +198,7 @@ def process_data(s1,s2, truncate_start, truncate_end, smooth_cut_off_freq=SMOOTH
 		s1_data = smoothen_without_shift(s1_data)#, impulse_length)
 		s2_data = smoothen_without_shift(s2_data)#, impulse_length)
 	if(NORMALIZE):
+		# pass
 		s1_data = normalize_regularize(s1_data)
 		s2_data = normalize_regularize(s2_data)
 		# s1_data = normalize_max_min(s1_data)
@@ -230,8 +249,8 @@ def process_data(s1,s2, truncate_start, truncate_end, smooth_cut_off_freq=SMOOTH
 	# s2_t = signal.resample(s2_t, int(len(s2_t/2)))
 	# s2_t = s2_t[:len(s2_data)]
 
-	if(DEBUG > 10): print("len " + args.s1_filename, len(s1_t), len(s1_data))
-	if(DEBUG > 10): print("len " + args.s2_filename, len(s2_t), len(s2_data))
+	if(DEBUG > 10): print("len " + filename1, len(s1_t), len(s1_data))
+	if(DEBUG > 10): print("len " + filename2, len(s2_t), len(s2_data))
 
 
 
@@ -283,14 +302,19 @@ def process_data(s1,s2, truncate_start, truncate_end, smooth_cut_off_freq=SMOOTH
 	# CORRELATION
 	###########################################
 
-	if(DEBUG > 10): print("len " + args.s1_filename, len(s1_t), len(s1_data))
-	if(DEBUG > 10): print("len " + args.s2_filename, len(s2_t), len(s2_data))
-	xcorr = correlate(s1_data, s2_data)
+	if(DEBUG > 10): print("len " + filename1, len(s1_t), len(s1_data))
+	if(DEBUG > 10): print("len " + filename2, len(s2_t), len(s2_data))
 
-	# xcorr = smoothen_without_shift(xcorr)
-
-	time_shift = (len(xcorr)/2 - xcorr.argmax())
-	# print(len(xcorr), xcorr.argmax())
+	if(not CORRELATION_CIRCULAR):
+		# METHOD 1: CORRELATION
+		# numpy default correlation, 'zero padding?'
+		xcorr = correlate(s1_data, s2_data)
+		time_shift = (len(xcorr)/2 - xcorr.argmax())
+	else:
+		# METHOD 2: CORRELATION
+		# periodic/circular correlation
+		xcorr = periodic_corr_np(s2_data, s1_data)
+		time_shift = xcorr.argmax()
 
 	# xcorr -= xcorr.mean(); xcorr /= xcorr.std() 
 	#downsampling for plotting
@@ -374,6 +398,48 @@ def process_data(s1,s2, truncate_start, truncate_end, smooth_cut_off_freq=SMOOTH
 	# plt.show()
 
 	if(DEBUG > 10): print("peak detect")
+
+
+	if(DEBUG > 10): print("xcorr peaks")
+	# peakind = signal.find_peaks_cwt(s1_data, np.arange(1,1000), signal.ricker)
+	# # peakind = signal.find_peaks_cwt(s1_data,  wavelet = signal.wavelets.daub, widths=10)
+	# if(DEBUG > 10): print(peakind, s1[peakind])#, s1_data[peakind])
+
+	peaks_sci_xcorr_idx, _ = find_peaks(xcorr, width=peak_width)
+	prominences = peak_prominences(xcorr, peaks_sci_xcorr_idx)[0]
+	if(DEBUG > 2): print("peaks and prominences")
+	if(DEBUG > 2): print(peaks_sci_xcorr_idx,end="")
+	if(DEBUG > 2): print(colored(np.diff(peaks_sci_xcorr_idx),"cyan"))	
+	if(DEBUG > 2): print(colored(prominences,"yellow"),  colored(np.mean(prominences),"red"))
+
+
+	peaks_peakdetect_xcorr = peakdetect(xcorr, lookahead=peak_width)
+	# if(DEBUG > 10): print(peaks_peakdetect_s1)
+	if len(peaks_peakdetect_xcorr[0]) == 0: 
+		if len(peaks_peakdetect_xcorr[1]) == 0:
+			peaks_peakdetect_xcorr = np.array([]) 
+		else:
+			peaks_peakdetect_xcorr = np.array(peaks_peakdetect_xcorr[1])[:,0]
+	else:
+			if len(peaks_peakdetect_xcorr[1]) == 0:
+		 		peaks_peakdetect_xcorr = np.array(peaks_peakdetect_xcorr[0])[:,0]
+			else:
+				peaks_peakdetect_xcorr = np.append(np.array(peaks_peakdetect_xcorr[0])[:,0],np.array(peaks_peakdetect_xcorr[1])[:,0]) # contains both peaks and valleys as separate lists
+
+	peaks_peakdetect_xcorr.sort()
+	peaks_peakdetect_xcorr = peaks_peakdetect_xcorr.astype(int)
+	# if(DEBUG > 10): print(peaks_peakdetect_s1, end="")
+	# if(DEBUG > 10): print(colored(np.diff(peaks_peakdetect_s1),"cyan"))
+
+	if(SHOW_PEAKS_PROMINENCES): plt.plot(xcorr_t[peaks_sci_xcorr_idx], xcorr[peaks_sci_xcorr_idx], "x")
+
+
+
+
+
+
+
+
 	if(DEBUG > 10): print("s1 peaks")
 	# peakind = signal.find_peaks_cwt(s1_data, np.arange(1,1000), signal.ricker)
 	# # peakind = signal.find_peaks_cwt(s1_data,  wavelet = signal.wavelets.daub, widths=10)
@@ -477,10 +543,10 @@ def process_data(s1,s2, truncate_start, truncate_end, smooth_cut_off_freq=SMOOTH
 
 		angular_freq_s1 = 1/freqs[np.argmax(periodogram_s1)]
 		angular_freq_s2 = 1/freqs[np.argmax(periodogram_s2)]
-		if(DEBUG > 10): print(args.s1_filename, "Angular frequency:" , angular_freq_s1, "radians per second")
-		if(DEBUG > 10): print(args.s2_filename, "Angular frequency:" , angular_freq_s2, "radians per second")
-		if(DEBUG > 10): print(args.s1_filename, "Period:", (2*math.pi)/(1/angular_freq_s1))
-		if(DEBUG > 10): print(args.s2_filename, "Period:", (2*math.pi)/(1/angular_freq_s2))
+		if(DEBUG > 10): print(filename1, "Angular frequency:" , angular_freq_s1, "radians per second")
+		if(DEBUG > 10): print(filename2, "Angular frequency:" , angular_freq_s2, "radians per second")
+		if(DEBUG > 10): print(filename1, "Period:", (2*math.pi)/(1/angular_freq_s1))
+		if(DEBUG > 10): print(filename2, "Period:", (2*math.pi)/(1/angular_freq_s2))
 
 		angular_freq_avg = ( (2*math.pi)/(1/angular_freq_s1) + (2*math.pi)/(1/angular_freq_s1) )/2
 		angular_freq_max = (2*math.pi)/(1/angular_freq_s1) if (2*math.pi)/(1/angular_freq_s1) > (2*math.pi)/(1/angular_freq_s1)  else (2*math.pi)/(1/angular_freq_s2) 
@@ -537,6 +603,7 @@ tested_s0_1_s1_timeshift_data = []
 args = parser.parse_args()
 truncate_start = 0 if(args.truncate_start == None) else  int(args.truncate_start)
 truncate_end = 0 if(args.truncate_end == None) else  int(args.truncate_end)
+degree_diff_ground_truth = float(args.degree_diff)
 
 s0_0 = np.loadtxt(args.s0_0_filename, delimiter=" ")
 s0_1 = np.loadtxt(args.s0_1_filename, delimiter=" ")
@@ -550,12 +617,14 @@ tested_s0_0_s1_timeshift_data.append(time_shift)
 time_shift, period_s0_1_tmp, period_s1_tmp = process_data(s0_1, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_1_filename, args.s1_filename)
 tested_s0_1_s1_timeshift_data.append(time_shift)
 
-# largest_period = np.max(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
-# smallest_period = np.min(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
-# median_period = np.min(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
-# chosen_period = smallest_period
+largest_period = np.max(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
+smallest_period = np.min(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
+median_period = np.min(np.array([period_s0_0_tmp, period_s0_1_tmp, period_s1_tmp]))
+chosen_period = smallest_period
 
-chosen_period = ground_truth_timeshift_data[0]*4 # approx 90degrees X 4
+# chosen_period = (ground_truth_timeshift_data[0] % chosen_period)*4 # approx 90degrees X 4
+
+# chosen_period = 18020
 
 if(X_CORR_BY_WINDOW):
 	count = 0 # INCLUDES THE ONE FOR THE WHOLE SIGNAL COLLECTED
@@ -571,9 +640,10 @@ if(X_CORR_BY_WINDOW):
 	# chosen_period = 2000
 	print("chosen period override:", chosen_period)
 	# step_window_size = int((chosen_period*1000*factor))
-	step_window_size = int((chosen_period*1000)/4)
-	step = int(step_window_size/3)
+	# step_window_size = int((chosen_period*1000)/4)
+	# step = int(step_window_size/3)
 
+	step_window_size = step = int(chosen_period*1000/5)
 	for i in range(start, truncate_end - step_window_size, step):
 
 	# for i in range(start, truncate_end - int((period_s1*1000)), int((period_s1*1000)/3)):
@@ -585,8 +655,9 @@ if(X_CORR_BY_WINDOW):
 		# truncate_start = start#i +
 		# truncate_end = start + int(i * (round(period_s1*1000)))
 		truncate_start = i
-		truncate_end = i + step_window_size #int(round(period_s1*1000*factor))
+		# truncate_end = i + step_window_size #int(round(period_s1*1000*factor))
 		# print(truncate_start, truncate_end)
+		truncate_end = int(i + factor*chosen_period*1000)
 		time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s0_1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s0_1_filename)
 		ground_truth_timeshift_data.append(time_shift)
 		time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s1_filename)
@@ -616,15 +687,15 @@ if(X_CORR_BY_WINDOW):
 		t1.add_row(["-","-","-","-","-","-","-","-","-"])
 		print( "\n".join(t1.get_string().splitlines()[-2:]) )
 
-		# truncate_end = int(i + 2.5*chosen_period*1000)
-		# time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s0_1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s0_1_filename)
-		# ground_truth_timeshift_data.append(time_shift)
-		# time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s1_filename)
-		# tested_s0_0_s1_timeshift_data.append(time_shift)
-		# time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_1, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_1_filename, args.s1_filename)
-		# tested_s0_1_s1_timeshift_data.append(time_shift)
-		# t1.add_row(["-","-","-","-","-","-","-","-","-"])
-		# print( "\n".join(t1.get_string().splitlines()[-2:]) )
+		# # truncate_end = int(i + 2.5*chosen_period*1000)
+		# # time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s0_1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s0_1_filename)
+		# # ground_truth_timeshift_data.append(time_shift)
+		# # time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_0, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_0_filename, args.s1_filename)
+		# # tested_s0_0_s1_timeshift_data.append(time_shift)
+		# # time_shift, period_s0_0_tmp, period_s0_1_tmp = process_data(s0_1, s1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ, args.s0_1_filename, args.s1_filename)
+		# # tested_s0_1_s1_timeshift_data.append(time_shift)
+		# # t1.add_row(["-","-","-","-","-","-","-","-","-"])
+		# # print( "\n".join(t1.get_string().splitlines()[-2:]) )
 
 		# time_shift,_,_ = process_data(s1, s2, truncate_start, truncate_end,0.1)
 		# process_data(s1, s2, truncate_start, truncate_end)
@@ -639,8 +710,24 @@ ground_truth_timeshift_data = np.array(ground_truth_timeshift_data)
 tested_s0_0_s1_timeshift_data = np.array(tested_s0_0_s1_timeshift_data)
 tested_s0_1_s1_timeshift_data = np.array(tested_s0_1_s1_timeshift_data)
 
-tested_s0_0_s1_degreeshift_data = ((tested_s0_0_s1_timeshift_data/ground_truth_timeshift_data)*90)%360
-tested_s0_1_s1_degreeshift_data = ((tested_s0_1_s1_timeshift_data/ground_truth_timeshift_data)*90)%360
+if(EXCL_NEGATIVE_TIME_DIFF_FOR_GROUND_TRUTH):
+	print("excluding negative time diff for ground truth...")
+	ground_truth_timeshift_data = ground_truth_timeshift_data[np.where(ground_truth_timeshift_data >= 0)]
+	tested_s0_0_s1_timeshift_data = tested_s0_0_s1_timeshift_data[np.where(ground_truth_timeshift_data >= 0)]
+	tested_s0_1_s1_timeshift_data = tested_s0_1_s1_timeshift_data[np.where(ground_truth_timeshift_data >= 0)]
+
+# tested_s0_0_s1_degreeshift_data = ((tested_s0_0_s1_timeshift_data/np.abs(ground_truth_timeshift_data))*degree_diff_ground_truth)#%360
+# tested_s0_1_s1_degreeshift_data = ((tested_s0_1_s1_timeshift_data/np.abs(ground_truth_timeshift_data))*degree_diff_ground_truth)#%360
+
+#select from s0_1 only from valid s0_0... both positive or both negative....
+selected = np.where(np.logical_or(np.logical_and(ground_truth_timeshift_data >= 0, tested_s0_0_s1_timeshift_data >= 0),np.logical_and(ground_truth_timeshift_data < 0, tested_s0_0_s1_timeshift_data < 0)))
+ground_truth_timeshift_data = ground_truth_timeshift_data[selected]
+tested_s0_0_s1_timeshift_data = tested_s0_0_s1_timeshift_data[selected]
+tested_s0_1_s1_timeshift_data = tested_s0_1_s1_timeshift_data[selected]
+
+
+tested_s0_0_s1_degreeshift_data = ((tested_s0_0_s1_timeshift_data/ground_truth_timeshift_data)*degree_diff_ground_truth)%360
+tested_s0_1_s1_degreeshift_data = ((tested_s0_1_s1_timeshift_data/ground_truth_timeshift_data)*degree_diff_ground_truth)%360
 
 # range from 180 to -180
 # instead of 0 to 360 degrees
@@ -648,16 +735,22 @@ tested_s0_1_s1_degreeshift_data = ((tested_s0_1_s1_timeshift_data/ground_truth_t
 # harder to identify nodes that are further apart by degrees
 #
 # nodes futher apart, closer to 180/-180 must be identified by other stag on the board
-#
+
 tested_s0_0_s1_degreeshift_data[np.where(tested_s0_0_s1_degreeshift_data>180)] = tested_s0_0_s1_degreeshift_data[np.where(tested_s0_0_s1_degreeshift_data>180)]-360
 tested_s0_1_s1_degreeshift_data[np.where(tested_s0_1_s1_degreeshift_data>180)] = tested_s0_1_s1_degreeshift_data[np.where(tested_s0_1_s1_degreeshift_data>180)]-360
-
+tested_s0_0_s1_degreeshift_data[np.where(tested_s0_0_s1_degreeshift_data<-180)] = tested_s0_0_s1_degreeshift_data[np.where(tested_s0_0_s1_degreeshift_data<-180)]+360
+tested_s0_1_s1_degreeshift_data[np.where(tested_s0_1_s1_degreeshift_data<-180)] = tested_s0_1_s1_degreeshift_data[np.where(tested_s0_1_s1_degreeshift_data<-180)]+360
 
 
 print(ground_truth_timeshift_data)
 print(tested_s0_0_s1_timeshift_data)
+print(tested_s0_0_s1_degreeshift_data)
 print( np.sort(np.round( tested_s0_0_s1_degreeshift_data ,1)).tolist(), np.average(tested_s0_0_s1_degreeshift_data) )
-print("from s0_0, 25%: ", round(np.percentile(tested_s0_0_s1_degreeshift_data, lower_percentile),1), "\t, median:",colored(round(np.median(tested_s0_0_s1_degreeshift_data),1),'yellow'), "\t, 75%: ",round(np.percentile(tested_s0_0_s1_degreeshift_data, higher_percentile),1))
+
+if(X_CORR_BY_WINDOW):
+	c1 = cluster.vq.kmeans2(tested_s0_0_s1_degreeshift_data,3)
+	print("clusters:", c1[0],"cluster mode: ", colored(c1[0][stats.mode(c1[1])[0][0]], "green"))
+	print("from", args.s0_0_filename,", 25%: ", round(np.percentile(tested_s0_0_s1_degreeshift_data, lower_percentile),1), "\t, median:",colored(round(np.median(tested_s0_0_s1_degreeshift_data),1),'yellow'), "\t, 75%: ",round(np.percentile(tested_s0_0_s1_degreeshift_data, higher_percentile),1))
 hist_s0_0_s1 = plt.hist(tested_s0_0_s1_degreeshift_data, bins=np.arange(-180,181,histogram_bin_size))#bins='auto')  # arguments are passed to np.histogram
 
 print("Histogram highest bar at:", colored(hist_s0_0_s1[1][np.argmax(hist_s0_0_s1[0])],'cyan') ,"degrees")
@@ -665,7 +758,10 @@ print("Histogram highest bar at:", colored(hist_s0_0_s1[1][np.argmax(hist_s0_0_s
 
 print(tested_s0_1_s1_timeshift_data)
 print( np.sort(np.round( tested_s0_1_s1_degreeshift_data ,1)).tolist(), np.average(tested_s0_1_s1_degreeshift_data) )
-print("from s0_1, 25%: ", round(np.percentile(tested_s0_1_s1_degreeshift_data, lower_percentile),1),"\t, median: ",colored(round(np.median(tested_s0_1_s1_degreeshift_data),1),'yellow'),"\t, 75%: ", round(np.percentile(tested_s0_1_s1_degreeshift_data, higher_percentile),1))
+if(X_CORR_BY_WINDOW):
+	c2 = cluster.vq.kmeans2(tested_s0_1_s1_degreeshift_data,3)
+	print("clusters:", c2[0],"cluster mode: ", colored(c2[0][stats.mode(c2[1])[0][0]], "green"))
+	print("from", args.s0_1_filename,", 25%: ", round(np.percentile(tested_s0_1_s1_degreeshift_data, lower_percentile),1),"\t, median: ",colored(round(np.median(tested_s0_1_s1_degreeshift_data),1),'yellow'),"\t, 75%: ", round(np.percentile(tested_s0_1_s1_degreeshift_data, higher_percentile),1))
 hist_s0_1_s1 = plt.hist(tested_s0_1_s1_degreeshift_data, bins=np.arange(-180,181,histogram_bin_size))  # arguments are passed to np.histogram
 
 print("Histogram highest bar at:", colored(hist_s0_1_s1[1][np.argmax(hist_s0_1_s1[0])],'cyan') ,"degrees")
