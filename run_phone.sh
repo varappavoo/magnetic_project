@@ -1,0 +1,3 @@
+#!/bin/bash
+# ~/contiki-magnetometer-nicholasinatel/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyACM0|ts "%.s"|awk -v avg=$2 -v N=20 {'avg=avg-(avg/N);avg=avg+($2/N);print $1,$2/100,avg/100;fflush();'}|awk 'NR>500;fflush();'|tee /dev/tty|awk {'print $1%10000,$2,$3;fflush();'}
+adb logcat |grep -i mag --line-buffered|ts "%.s"|awk -v avg=$7 -v N=20 {'avg=avg-(avg/N);avg=avg+($7/N);print $1,$7,avg;fflush();'}|awk 'NR>10;fflush();'|feedgnuplot --lines --stream 0.01 --ylabel 'utesla' --xlabel 'time' --domain --xlen 30 --legend 0 "phone"
