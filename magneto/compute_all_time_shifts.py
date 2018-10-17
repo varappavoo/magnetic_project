@@ -100,7 +100,7 @@ for ground_truth_stag in ground_truth_stags:
 			# time_shift, period_s0 = process_data(ground_truth_stags_data[ground_truth_stag], unknown_stags_data[unknown_stag], DATA_COL_S0, DATA_COL_S1, truncate_start, truncate_end, SMOOTH_CUT_OFF_FREQ_W_S1, SMOOTH_CUT_OFF_FREQ_W_S0,ground_truth_stag, unknown_stag, False, True)
 			# print("-----------------------------------------------------------------")
 			# print(colored((ground_truth_stag, unkn
-			time_shift = compute_time_shift(ground_truth_stags_data[ground_truth_stag], unknown_stags_data[unknown_stag], truncate_start,truncate_end, show_plot= True)
+			time_shift = compute_time_shift(ground_truth_stags_data[ground_truth_stag], unknown_stags_data[unknown_stag], truncate_start,truncate_end, show_plot= True	)
 			t1.add_row([ground_truth_stag, unknown_stag,  time_shift])#, period_s0, ddiff])
 			# print(time_shift)
 			print( "\n".join(t1.get_string().splitlines()[-2:]) )
@@ -209,7 +209,7 @@ for i in range(int(len(ground_truth_stags)/2) + 1):
 			# ###########
 			# ground_truth_stag_idx = ground_truth_stag_idx % len(ground_truth_stags)
 			# ###########
-			print("#",time_shift, time_diff_between_ground_truth_tags[ground_truth_stag_1][ground_truth_stag_2])
+			# print("#",time_shift, time_diff_between_ground_truth_tags[ground_truth_stag_1][ground_truth_stag_2])
 			if(time_shift > abs(time_diff_between_ground_truth_tags[ground_truth_stag_1][ground_truth_stag_2]) ):
 				time_shift -= time_diff_between_ground_truth_tags[ground_truth_stag_1][ground_truth_stag_2]
 				ddiff +=  ground_truth_diff[ground_truth_stags.index(ground_truth_stag_1)][ground_truth_stags.index(ground_truth_stag_2)]
@@ -221,7 +221,7 @@ for i in range(int(len(ground_truth_stags)/2) + 1):
 			# else:
 			# 	# print(ddiff)
 			# 	break	
-			print("@",time_shift,ddiff)
+			# print("@",time_shift,ddiff)
 						
 
 		# pass

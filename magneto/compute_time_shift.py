@@ -133,9 +133,18 @@ def calibrate(s):
 		pass
 
 
-	offset_x = -(0 - x_min - (x_max - x_min)/2)
-	offset_y = -(0 - y_min - (y_max - y_min)/2)
-	offset_z = -(0 - z_min - (z_max - z_min)/2)
+	# offset_x = -(0 - x_min - (x_max - x_min)/2)
+	# offset_y = -(0 - y_min - (y_max - y_min)/2)
+	# offset_z = -(0 - z_min - (z_max - z_min)/2)
+
+	# if(DEBUG): print(x_min, x_max, y_min, y_max, z_min, z_max)
+	# s[:,COL_X] = s[:,COL_X] - offset_x
+	# s[:,COL_Y] = s[:,COL_Y] - offset_y
+	# s[:,COL_Z] = s[:,COL_Z] - offset_z
+
+	offset_x = x_min + (x_max - x_min)/2
+	offset_y = y_min + (y_max - y_min)/2
+	offset_z = z_min + (z_max - z_min)/2
 
 	if(DEBUG): print(x_min, x_max, y_min, y_max, z_min, z_max)
 	s[:,COL_X] = s[:,COL_X] - offset_x
@@ -159,15 +168,16 @@ def trim_spline_trail(s, gap):
 	return s
 
 
-def process(s, s_name, truncate_start, truncate_end, show_plot=True):
+def process(s, s_name, truncate_start, truncate_end, show_plot=True, smooth=True):
 	# if(DEBUG): print(np.shape(s), s[:,0][0], s[:,0][0]+truncate_start, s[:,0][0]+truncate_end , s[:,0][len(s[:,0]) -1])
 	s = s[np.where((s[:,0] >= (s[:,0][0]+truncate_start) ) & (s[:,0] <= (s[:,0][0]+truncate_end) ))]
 	# if(DEBUG): print(np.shape(s), s[:,0][0], s[:,0][0]+truncate_start, s[:,0][0]+truncate_end , s[:,0][len(s[:,0]) -1])
 	# s = s[truncate_start:truncate_end]
-	for i in range(1,4):
-		s[:,i] = smoothen_without_shift(s[:,i], smooth_cut_off_freq)
-		if(SPLINE):
-			s[:,i] = spline(s[:,0],s[:,i])
+	if(smooth):
+		for i in range(1,4):
+			s[:,i] = smoothen_without_shift(s[:,i], smooth_cut_off_freq)
+			if(SPLINE):
+				s[:,i] = spline(s[:,0],s[:,i])
 	
 	if(SPLINE):
 		s = trim_spline_trail(s, 1000)
@@ -191,7 +201,7 @@ def process(s, s_name, truncate_start, truncate_end, show_plot=True):
 			# s[:,i] = smoothen_without_shift(s[:,i], smooth_cut_off_freq)
 			# s[:,i] = normalize_regularize(s[:,i])
 			if i < 5:
-				plt.plot(s[:,0], s[:,i], label=" " + axis[i-1])
+				plt.plot(s[:,0], normalize_regularize(s[:,i]), label=" " + axis[i-1])
 		plt.legend()
 		plt.show()
 
@@ -280,11 +290,13 @@ def compute_time_shift(file1, file2, truncate_start, truncate_end, show_plot=Tru
 
 	# print(file1)
 	s1 = np.loadtxt(file1, delimiter=" ")
-	s1 = process(s1, file1, truncate_start, truncate_end, show_plot)
+	s1 = process(s1, file1, truncate_start, truncate_end, show_plot, False)
 
 	# print(file2)
 	s2 = np.loadtxt(file2, delimiter=" ")
 	s2 = process(s2, file2, truncate_start, truncate_end, show_plot)
+
+	# plt.show()
 
 	COL_M = 4
 	s1_tm, s2_tm = align(s1, s2, COL_M, COL_M)
