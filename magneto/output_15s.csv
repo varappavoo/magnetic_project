@@ -1,0 +1,150 @@
+RESULTS,s1,['b1'],actual,(0 0),computed,(-249 0),249
+RESULTS,s1,['b2'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b3'],actual,(0 0),computed,(204 0),204
+RESULTS,s1,['b4'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b1', 'b2'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b1', 'b3'],actual,(0 0),computed,(-32 2),32
+RESULTS,s1,['b1', 'b4'],actual,(0 0),computed,(0 101),101
+RESULTS,s1,['b2', 'b3'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b2', 'b4'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b3', 'b4'],actual,(0 0),computed,(0 101),101
+RESULTS,s1,['b1', 'b2', 'b3'],actual,(0 0),computed,(0 -33),33
+RESULTS,s1,['b1', 'b2', 'b4'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b1', 'b3', 'b4'],actual,(0 0),computed,(0 64),64
+RESULTS,s1,['b2', 'b3', 'b4'],actual,(0 0),computed,(0 0),0
+RESULTS,s1,['b1', 'b2', 'b3', 'b4'],actual,(0 0),computed,(0 0),0
+RESULTS,s2,['b1'],actual,(-50 50),computed,(-250 0),206
+RESULTS,s2,['b2'],actual,(-50 50),computed,(0 0),70
+RESULTS,s2,['b3'],actual,(-50 50),computed,(205 0),259
+RESULTS,s2,['b4'],actual,(-50 50),computed,(0 249),206
+RESULTS,s2,['b1', 'b2'],actual,(-50 50),computed,(0 -63),124
+RESULTS,s2,['b1', 'b3'],actual,(-50 50),computed,(-21 38),30
+RESULTS,s2,['b1', 'b4'],actual,(-50 50),computed,(-5 137),97
+RESULTS,s2,['b2', 'b3'],actual,(-50 50),computed,(0 -99),157
+RESULTS,s2,['b2', 'b4'],actual,(-50 50),computed,(0 38),51
+RESULTS,s2,['b3', 'b4'],actual,(-50 50),computed,(-7 99),65
+RESULTS,s2,['b1', 'b2', 'b3'],actual,(-50 50),computed,(0 -36),100
+RESULTS,s2,['b1', 'b2', 'b4'],actual,(-50 50),computed,(0 50),50
+RESULTS,s2,['b1', 'b3', 'b4'],actual,(-50 50),computed,(-8 88),56
+RESULTS,s2,['b2', 'b3', 'b4'],actual,(-50 50),computed,(0 28),54
+RESULTS,s2,['b1', 'b2', 'b3', 'b4'],actual,(-50 50),computed,(0 40),50
+RESULTS,s3,['b1'],actual,(100 50),computed,(-249 0),353
+RESULTS,s3,['b2'],actual,(100 50),computed,(0 -250),316
+RESULTS,s3,['b3'],actual,(100 50),computed,(204 0),116
+RESULTS,s3,['b4'],actual,(100 50),computed,(0 250),223
+RESULTS,s3,['b1', 'b2'],actual,(100 50),computed,(0 -88),170
+RESULTS,s3,['b1', 'b3'],actual,(100 50),computed,(-96 90),200
+RESULTS,s3,['b1', 'b4'],actual,(100 50),computed,(27 137),113
+RESULTS,s3,['b2', 'b3'],actual,(100 50),computed,(0 -70),156
+RESULTS,s3,['b2', 'b4'],actual,(100 50),computed,(0 8),108
+RESULTS,s3,['b3', 'b4'],actual,(100 50),computed,(91 73),25
+RESULTS,s3,['b1', 'b2', 'b3'],actual,(100 50),computed,(0 -25),125
+RESULTS,s3,['b1', 'b2', 'b4'],actual,(100 50),computed,(0 27),102
+RESULTS,s3,['b1', 'b3', 'b4'],actual,(100 50),computed,(36 113),90
+RESULTS,s3,['b2', 'b3', 'b4'],actual,(100 50),computed,(0 38),100
+RESULTS,s3,['b1', 'b2', 'b3', 'b4'],actual,(100 50),computed,(0 44),100
+RESULTS,s4,['b1'],actual,(0 150),computed,(-249 0),291
+RESULTS,s4,['b2'],actual,(0 150),computed,(0 -249),399
+RESULTS,s4,['b3'],actual,(0 150),computed,(205 0),254
+RESULTS,s4,['b4'],actual,(0 150),computed,(0 0),150
+RESULTS,s4,['b1', 'b2'],actual,(0 150),computed,(0 -23),173
+RESULTS,s4,['b1', 'b3'],actual,(0 150),computed,(-7 156),9
+RESULTS,s4,['b1', 'b4'],actual,(0 150),computed,(0 203),53
+RESULTS,s4,['b2', 'b3'],actual,(0 150),computed,(0 -41),191
+RESULTS,s4,['b2', 'b4'],actual,(0 150),computed,(0 0),150
+RESULTS,s4,['b3', 'b4'],actual,(0 150),computed,(0 184),34
+RESULTS,s4,['b1', 'b2', 'b3'],actual,(0 150),computed,(0 33),116
+RESULTS,s4,['b1', 'b2', 'b4'],actual,(0 150),computed,(0 48),101
+RESULTS,s4,['b1', 'b3', 'b4'],actual,(0 150),computed,(0 179),29
+RESULTS,s4,['b2', 'b3', 'b4'],actual,(0 150),computed,(0 35),114
+RESULTS,s4,['b1', 'b2', 'b3', 'b4'],actual,(0 150),computed,(0 74),75
+RESULTS,s5,['b1'],actual,(150 150),computed,(-250 0),427
+RESULTS,s5,['b2'],actual,(150 150),computed,(0 -249),427
+RESULTS,s5,['b3'],actual,(150 150),computed,(204 0),159
+RESULTS,s5,['b4'],actual,(150 150),computed,(0 250),180
+RESULTS,s5,['b1', 'b2'],actual,(150 150),computed,(0 -91),283
+RESULTS,s5,['b1', 'b3'],actual,(150 150),computed,(-155 318),349
+RESULTS,s5,['b1', 'b4'],actual,(150 150),computed,(-213 223),370
+RESULTS,s5,['b2', 'b3'],actual,(150 150),computed,(0 51),179
+RESULTS,s5,['b2', 'b4'],actual,(150 150),computed,(0 8),206
+RESULTS,s5,['b3', 'b4'],actual,(150 150),computed,(133 131),24
+RESULTS,s5,['b1', 'b2', 'b3'],actual,(150 150),computed,(0 53),178
+RESULTS,s5,['b1', 'b2', 'b4'],actual,(150 150),computed,(0 25),195
+RESULTS,s5,['b1', 'b3', 'b4'],actual,(150 150),computed,(-154 341),360
+RESULTS,s5,['b2', 'b3', 'b4'],actual,(150 150),computed,(0 122),152
+RESULTS,s5,['b1', 'b2', 'b3', 'b4'],actual,(150 150),computed,(0 105),156
+RESULTS,s6,['b1'],actual,(100 -100),computed,(-249 0),364
+RESULTS,s6,['b2'],actual,(100 -100),computed,(0 -250),180
+RESULTS,s6,['b3'],actual,(100 -100),computed,(205 0),145
+RESULTS,s6,['b4'],actual,(100 -100),computed,(0 249),364
+RESULTS,s6,['b1', 'b2'],actual,(100 -100),computed,(-13 -177),137
+RESULTS,s6,['b1', 'b3'],actual,(100 -100),computed,(-82 -152),189
+RESULTS,s6,['b1', 'b4'],actual,(100 -100),computed,(-1 73),200
+RESULTS,s6,['b2', 'b3'],actual,(100 -100),computed,(93 -109),11
+RESULTS,s6,['b2', 'b4'],actual,(100 -100),computed,(-1 -8),136
+RESULTS,s6,['b3', 'b4'],actual,(100 -100),computed,(-1 35),169
+RESULTS,s6,['b1', 'b2', 'b3'],actual,(100 -100),computed,(-11 -180),137
+RESULTS,s6,['b1', 'b2', 'b4'],actual,(100 -100),computed,(-1 -36),119
+RESULTS,s6,['b1', 'b3', 'b4'],actual,(100 -100),computed,(-1 -8),136
+RESULTS,s6,['b2', 'b3', 'b4'],actual,(100 -100),computed,(-1 -64),107
+RESULTS,s6,['b1', 'b2', 'b3', 'b4'],actual,(100 -100),computed,(-2 -71),106
+RESULTS,s7,['b1'],actual,(50 -150),computed,(-249 0),335
+RESULTS,s7,['b2'],actual,(50 -150),computed,(0 -250),111
+RESULTS,s7,['b3'],actual,(50 -150),computed,(205 0),215
+RESULTS,s7,['b4'],actual,(50 -150),computed,(0 249),403
+RESULTS,s7,['b1', 'b2'],actual,(50 -150),computed,(26 -162),26
+RESULTS,s7,['b1', 'b3'],actual,(50 -150),computed,(-19 -152),69
+RESULTS,s7,['b1', 'b4'],actual,(50 -150),computed,(0 65),221
+RESULTS,s7,['b2', 'b3'],actual,(50 -150),computed,(54 -147),5
+RESULTS,s7,['b2', 'b4'],actual,(50 -150),computed,(-1 -6),151
+RESULTS,s7,['b3', 'b4'],actual,(50 -150),computed,(0 24),182
+RESULTS,s7,['b1', 'b2', 'b3'],actual,(50 -150),computed,(26 -162),26
+RESULTS,s7,['b1', 'b2', 'b4'],actual,(50 -150),computed,(-1 -41),119
+RESULTS,s7,['b1', 'b3', 'b4'],actual,(50 -150),computed,(-1 -20),139
+RESULTS,s7,['b2', 'b3', 'b4'],actual,(50 -150),computed,(-1 -68),95
+RESULTS,s7,['b1', 'b2', 'b3', 'b4'],actual,(50 -150),computed,(-1 -78),87
+RESULTS,s8,['b1'],actual,(200 -200),computed,(-250 0),492
+RESULTS,s8,['b2'],actual,(200 -200),computed,(0 -249),206
+RESULTS,s8,['b3'],actual,(200 -200),computed,(205 0),200
+RESULTS,s8,['b4'],actual,(200 -200),computed,(0 249),492
+RESULTS,s8,['b1', 'b2'],actual,(200 -200),computed,(-244 -150),447
+RESULTS,s8,['b1', 'b3'],actual,(200 -200),computed,(166 -26),176
+RESULTS,s8,['b1', 'b4'],actual,(200 -200),computed,(-18 151),414
+RESULTS,s8,['b2', 'b3'],actual,(200 -200),computed,(199 -110),89
+RESULTS,s8,['b2', 'b4'],actual,(200 -200),computed,(11 -8),268
+RESULTS,s8,['b3', 'b4'],actual,(200 -200),computed,(112 -80),148
+RESULTS,s8,['b1', 'b2', 'b3'],actual,(200 -200),computed,(163 -91),114
+RESULTS,s8,['b1', 'b2', 'b4'],actual,(200 -200),computed,(-12 13),301
+RESULTS,s8,['b1', 'b3', 'b4'],actual,(200 -200),computed,(96 -46),185
+RESULTS,s8,['b2', 'b3', 'b4'],actual,(200 -200),computed,(111 -129),113
+RESULTS,s8,['b1', 'b2', 'b3', 'b4'],actual,(200 -200),computed,(96 -92),149
+RESULTS,s9,['b1'],actual,(-200 -100),computed,(-250 0),111
+RESULTS,s9,['b2'],actual,(-200 -100),computed,(0 -249),249
+RESULTS,s9,['b3'],actual,(-200 -100),computed,(205 0),417
+RESULTS,s9,['b4'],actual,(-200 -100),computed,(0 249),403
+RESULTS,s9,['b1', 'b2'],actual,(-200 -100),computed,(-241 -14),94
+RESULTS,s9,['b1', 'b3'],actual,(-200 -100),computed,(178 -442),510
+RESULTS,s9,['b1', 'b4'],actual,(-200 -100),computed,(-1 -126),200
+RESULTS,s9,['b2', 'b3'],actual,(-200 -100),computed,(193 -242),418
+RESULTS,s9,['b2', 'b4'],actual,(-200 -100),computed,(-1 -15),216
+RESULTS,s9,['b3', 'b4'],actual,(-200 -100),computed,(0 -127),202
+RESULTS,s9,['b1', 'b2', 'b3'],actual,(-200 -100),computed,(178 -436),506
+RESULTS,s9,['b1', 'b2', 'b4'],actual,(-200 -100),computed,(-1 -168),209
+RESULTS,s9,['b1', 'b3', 'b4'],actual,(-200 -100),computed,(0 -247),248
+RESULTS,s9,['b2', 'b3', 'b4'],actual,(-200 -100),computed,(0 -171),212
+RESULTS,s9,['b1', 'b2', 'b3', 'b4'],actual,(-200 -100),computed,(0 -248),248
+RESULTS,s10,['b1'],actual,(-200 250),computed,(-250 0),254
+RESULTS,s10,['b2'],actual,(-200 250),computed,(0 -250),538
+RESULTS,s10,['b3'],actual,(-200 250),computed,(204 0),475
+RESULTS,s10,['b4'],actual,(-200 250),computed,(0 250),200
+RESULTS,s10,['b1', 'b2'],actual,(-200 250),computed,(-233 -105),357
+RESULTS,s10,['b1', 'b3'],actual,(-200 250),computed,(-237 -178),430
+RESULTS,s10,['b1', 'b4'],actual,(-200 250),computed,(-248 139),120
+RESULTS,s10,['b2', 'b3'],actual,(-200 250),computed,(62 -185),508
+RESULTS,s10,['b2', 'b4'],actual,(-200 250),computed,(2 1),321
+RESULTS,s10,['b3', 'b4'],actual,(-200 250),computed,(209 126),427
+RESULTS,s10,['b1', 'b2', 'b3'],actual,(-200 250),computed,(-220 -180),430
+RESULTS,s10,['b1', 'b2', 'b4'],actual,(-200 250),computed,(-231 21),230
+RESULTS,s10,['b1', 'b3', 'b4'],actual,(-200 250),computed,(-234 -24),276
+RESULTS,s10,['b2', 'b3', 'b4'],actual,(-200 250),computed,(64 -38),391
+RESULTS,s10,['b1', 'b2', 'b3', 'b4'],actual,(-200 250),computed,(-218 -65),316
