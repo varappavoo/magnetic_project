@@ -39,7 +39,7 @@ for i in range(10):
 			# print(b_params)
 			# cmd = "./plot_sys_of_eqn.py " + b_params + " -f " + myfile + " -d " + str(b3distace) + " -s " + s + " -p 0"
 			# ./plot_sys_of_eqn_dynamic_config.py -b b1 -b b2 -b b3 -b b4  -f experiment_20181013/RESULTS/20SEC/mydata.csv -g ground_truth_20181013.csv -p 1 -s s9
-			cmd = "./plot_sys_of_eqn_dynamic_config.py " + b_params + " -f " + myfile + " -s " + s + " -g " + ground_truth_file + " -p 0"
+			cmd = "./plot_sys_of_eqn_dynamic_config_lstsq.py " + b_params + " -f " + myfile + " -s " + s + " -g " + ground_truth_file + " -p 0"
 			# cmd = "./plot_sys_of_eqn_dynamic_config_cluster_of_points.py " + b_params + " -f " + myfile + " -s " + s + " -g " + ground_truth_file + " -p 0"
 			print(cmd)
 			# print(cmd)
